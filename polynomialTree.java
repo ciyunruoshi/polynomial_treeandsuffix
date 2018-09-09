@@ -3,7 +3,6 @@ package polynomial;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.Stack;
 
 import org.omg.CORBA.PUBLIC_MEMBER;
 
@@ -79,6 +78,6 @@ public class polynomialTree {
 		System.out.println("请输入表达式（以空格分割）:");
 		String src = in.nextLine();
 		new polynomialTree(src).middleS();
-		//System.out.println(src);
+		
 	}
 }
